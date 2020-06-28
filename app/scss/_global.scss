@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $black;
+  @media #{$mq-1000-up} {
+  }
+}
+
+main {
+  @media #{$mq-1000-up} {
+  }
+}
+
+.content {
+  @media #{$mq-1000-up} {
+  }
+}
+
+aside {
+  @media #{$mq-1000-up} {
+  }
+}
+
+.nav {
+  padding: 2.5rem 2.5rem 0 2.5rem;
+}
+
+.logo {
+  &__link {
+    text-decoration: none;
+    color: $white;
+    font-family: $varelaRound;
+    font-size: 3.6rem;
+  }
+}
