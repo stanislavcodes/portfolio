@@ -18,3 +18,15 @@ $mq-1400-up: "only screen and (min-width: 1400px)";
 // Font Families
 $josephinSans: "Josefin Sans", sans-serif;
 $varelaRound: "Varela Round", sans-serif;
+
+// Flex shortcuts
+@mixin fx-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin fx-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

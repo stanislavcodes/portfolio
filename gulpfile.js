@@ -38,7 +38,7 @@ function jsTask() {
     //,'!' + 'includes/js/jquery.min.js', // to exclude any specific files
   ])
     .pipe(concat("all.js"))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(dest("dist"))
     .pipe(browserSynk.stream());
 }
